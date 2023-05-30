@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social__links {
+    display: flex;
+    gap: 22px;
+    width: 10px;
+    height: 18px;
+}

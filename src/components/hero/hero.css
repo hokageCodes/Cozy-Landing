@@ -1,0 +1,61 @@
+.hero__section {
+    background: url(../../assets/cozy_bg.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(35%, 65%);
+    max-width: 60%;
+}
+.hero__content>h1 {
+    margin-bottom: 24px;
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFDFD;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.hero__content>p {
+    margin-bottom: 24px;
+    max-width: 80%;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFDFD;
+}
+.call_to_actions {
+    display: flex;
+    gap: 20px;
+    
+}
+.hero__button {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #027579;
+    width: 248px;
+    height: 56px;
+    background: #FFFDFD;
+    border-radius: 8px;
+}
+.documentation__button {
+    width: 248px;
+    height: 56px;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+span {
+    color: #027579;
+}

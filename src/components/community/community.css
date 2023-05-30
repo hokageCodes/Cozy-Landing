@@ -1,0 +1,39 @@
+.community__section {
+    margin-top: 80px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 408px;
+    background-color: #027579;
+}
+.community__content>h2 {
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFDFD;
+    margin-bottom: 16px;
+}
+.community__content>p {
+    max-width: 539px;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CCE3E4;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.nav__button {
+    margin-left: 195px;
+    width: 151px;
+    height: 56px;
+    background: #fff;
+    border-radius: 8px;
+    color: #027579;
+}

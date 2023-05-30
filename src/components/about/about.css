@@ -1,0 +1,67 @@
+.about__section {
+    height: 70vh;
+    margin-top: 100px;
+    background: #027579;
+}
+
+.about__content {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    transform: translate(15%, 15%);
+}
+.about__content>img {
+    border-radius: 8px;
+    width: 487px;
+    height: 387px;
+}
+.about__text>h4 {
+    margin-bottom: 16px;
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #CCE3E4;
+}
+.about__text>h3 {
+    margin-bottom: 24px;
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFDFD;
+}
+.about__text>p {
+    margin-bottom: 24px;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CCE3E4;
+    max-width: 50%;
+}
+.stats__count {
+    display: flex;
+    gap: 32px;
+    color: #fff;
+}
+.stat>h4 {
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFDFD;
+}
+.stat>p {
+    max-width: 124px;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CCE3E4;
+}
