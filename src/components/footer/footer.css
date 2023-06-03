@@ -1,11 +1,53 @@
 footer {
+    margin-top: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 260px;
 }
+
+.footer__logo>h2 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #027579;
+}
+
+.footer__links>li {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252828;
+}
+
 .social__links {
     display: flex;
     gap: 22px;
     width: 10px;
     height: 18px;
+}
+
+.social__links__footer {
+    display: flex;
+    gap: 20px;
+}
+
+
+hr {
+    margin-top: 72px;
+    margin-left: 160px;
+    width: 1200px;
+}
+
+.footer-bottom {
+    margin-top: 32px;
+    margin-left: 350px;
+}
+.footer-bottom-links>li {
+    color: #252828;
+    margin-left: 24px;
 }

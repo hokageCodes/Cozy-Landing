@@ -29,11 +29,12 @@
     text-align: center;
     margin-bottom: 48px;
 }
-.nav__button {
+.community__button {
     margin-left: 195px;
     width: 151px;
     height: 56px;
     background: #fff;
     border-radius: 8px;
     color: #027579;
+    font-weight: 900;
 }
