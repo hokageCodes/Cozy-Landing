@@ -36,6 +36,20 @@ function How() {
                     <h3>Connect with peers and licensed therapists</h3>
                     <p> Share your experiences, seek advice, and receive professional guidance, all in one inclusive platform</p>
                 </div>
+                <div className="how_it_works last">
+                    <div className="number">
+                        <h4>05</h4>
+                    </div>
+                    <h3>Access a range of self-care resources and activities</h3>
+                    <p> Indulge in a diverse array of self-care resources and activities, all conveniently accessible in one place.</p>
+                </div>
+                <div className="how_it_works last">
+                    <div className="number">
+                        <h4>06</h4>
+                    </div>
+                    <h3>Earn NFTs for completing your goals and tasks</h3>
+                    <p>Stay motivated and collect unique digital assets as you achieve your objectives on our innovative platform.</p>
+                </div>
             </div>
         </section>
     )
