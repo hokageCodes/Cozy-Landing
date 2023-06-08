@@ -65,3 +65,56 @@
     border-radius: 8px;
     color: #fff;
 }
+
+@media screen and (max-width: 376px) {
+    .features__heading>h2 {
+        font-family: 'Clash Grotesk';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #252828;
+    }
+    .features__heading>p {
+        margin-left: 30px;
+        max-width: 300px;
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #616062;
+    }
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+    .list>img {
+        width: 327px;
+        height: 242.91px;
+        border-radius: 8px;
+    }
+    .feature_list_content>h3 {
+        margin-left: 20px;
+        font-family: 'Clash Grotesk';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #252828;
+    }
+    .feature_list_content>p {
+        margin-left: 20px;
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #616062;
+    }
+    .feature_list_content>button {
+        margin-left: 20px;
+    }
+}

@@ -4,7 +4,7 @@ import './navbar.css'
 function Navbar() {
     return (
         <header className="header__container">
-            <nav className="nav__container">
+            {/* <nav className="nav__container">
                 <div className="logo">
                     <h2>CozyCove</h2>
                 </div>
@@ -17,7 +17,7 @@ function Navbar() {
                         <button className='nav__button'>Get Started</button>
                     </ul>
                 </div>
-            </nav>
+            </nav> */}
             <Hero />
         </header>
     )

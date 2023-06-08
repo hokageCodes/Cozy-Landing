@@ -7,31 +7,31 @@ const FAQs = () => {
       number: 1,
       question: 'How do I sign up to CozyCove',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum fugiat, dicta quos possimus totam consequatur ab minus sit praesentium asperiores?',
+        'Create an account by connecting your wallet to access a world of support and community.',
     },
     {
       number: 2,
       question: 'Is my personal information secure?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum fugiat, dicta quos possimus totam consequatur ab minus sit praesentium asperiores?',
+        'Yes, our platform is built on blockchain technology to ensure that your personal information is always encrypted and stored securely.',
     },
     {
       number: 3,
       question: 'Can I get a licensed therapist through the platform?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum fugiat, dicta quos possimus totam consequatur ab minus sit praesentium asperiores?',
+        'Our platform provides a directory of licensed therapists and mental health professionals you can connect with for therapy sessions.',
     },
     {
       number: 4,
       question: 'Is peer support available on the platform?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum fugiat, dicta quos possimus totam consequatur ab minus sit praesentium asperiores?',
+        'Yes, our platform provides a community of like-minded individuals who are going through similar mental health challenges.',
     },
     {
       number: 5,
       question: 'How do I get my NFTs?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum fugiat, dicta quos possimus totam consequatur ab minus sit praesentium asperiores?',
+        'When you claim the NFTs you have earned from accomplished tasks.',
     },
   ]);
 
@@ -71,7 +71,7 @@ const FAQs = () => {
           </div>
           <div className="faq-answer">
             {faq.open && (
-              <div style={{ marginLeft: '20px' }}>{faq.answer}</div>
+              <div className='answer'>{faq.answer}</div>
             )}
           </div>
         </div>

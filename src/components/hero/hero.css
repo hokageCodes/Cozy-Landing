@@ -1,16 +1,19 @@
 .hero__section {
     background: url(../../assets/cozy_bg.png) no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
-}
-.hero__content {
+  }
+  
+  .hero__content {
     display: flex;
     flex-direction: column;
     align-items: center;
     transform: translate(35%, 65%);
     max-width: 60%;
-}
-.hero__content>h1 {
+  }
+  
+  .hero__content > h1 {
     margin-bottom: 24px;
     font-family: 'Clash Grotesk';
     font-style: normal;
@@ -20,8 +23,9 @@
     text-align: center;
     color: #FFFDFD;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-}
-.hero__content>p {
+  }
+  
+  .hero__content > p {
     margin-bottom: 24px;
     max-width: 80%;
     font-family: 'Figtree';
@@ -30,13 +34,14 @@
     font-size: 16px;
     line-height: 24px;
     color: #FFFDFD;
-}
-.call_to_actions {
+  }
+  
+  .call_to_actions {
     display: flex;
     gap: 20px;
-    
-}
-.hero__button {
+  }
+  
+  .hero__button {
     font-family: 'Figtree';
     font-style: normal;
     font-weight: 700;
@@ -47,15 +52,168 @@
     height: 56px;
     background: #FFFDFD;
     border-radius: 8px;
-}
-.documentation__button {
+  }
+  
+  .documentation__button {
     width: 248px;
     height: 56px;
     background: transparent;
     border-radius: 8px;
     border: 1px solid #fff;
     color: #fff;
-}
-span {
+  }
+  
+  span {
     color: #027579;
-}
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 768px) {
+    .hero__content {
+      max-width: 80%;
+      transform: none;
+    }
+  }
+  
+  @media screen and (max-width: 415px) {
+    .hero__section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin-top: -20px;
+        max-width: 450px;
+    }
+    .hero__content > h1 {
+        margin-bottom: 16px;
+        width: 327px;
+        font-size: 40px;
+        line-height: 48px;
+        font-family: 'Clash Grotesk';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: #FFFDFD;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .hero__content > p {
+        font-size: 12px;
+        line-height: 18px;
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFDFD;
+        margin-bottom: 24px;
+    }
+
+    .hero__button {
+      width: 180px;
+      height: 44px;
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .documentation__button {
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 413px) {
+    .hero__section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin-top: -20px;
+        max-width: 400px;
+    }
+    .hero__content > h1 {
+        margin-bottom: 16px;
+        width: 327px;
+        font-size: 40px;
+        line-height: 48px;
+        font-family: 'Clash Grotesk';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: #FFFDFD;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .hero__content > p {
+        font-size: 12px;
+        line-height: 18px;
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFDFD;
+        margin-bottom: 24px;
+    }
+
+    .hero__button {
+      width: 180px;
+      height: 44px;
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .documentation__button {
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 376px) {
+    .hero__section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin-top: -20px;
+        max-width: 350px;
+    }
+    .hero__content > h1 {
+        margin-bottom: 16px;
+        width: 327px;
+        font-size: 40px;
+        line-height: 48px;
+        font-family: 'Clash Grotesk';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: #FFFDFD;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .hero__content > p {
+        font-size: 12px;
+        line-height: 18px;
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFDFD;
+        margin-bottom: 24px;
+    }
+
+    .hero__button {
+      width: 180px;
+      height: 44px;
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .documentation__button {
+        display: none;
+    }
+  }
+  
