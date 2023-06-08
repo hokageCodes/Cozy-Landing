@@ -8,7 +8,7 @@ function Footer() {
     return (
         <>        
             <footer>
-                <div className="footer__logo">
+                    <div className="footer__logo">
                         <h2>CozyCove</h2>
                     </div>
                     <div>
